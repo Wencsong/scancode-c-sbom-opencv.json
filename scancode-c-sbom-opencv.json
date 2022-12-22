@@ -1,0 +1,629 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2022-11-28T06:34:28Z",
+    "tools" : [
+      {
+        "name" : "FossX"
+      }
+    ],
+    "authors" : [
+      {
+        "name" : "http://www.nanbeikeji.com"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "name" : "libpng",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Libpng",
+            "name" : "Libpng License",
+            "url" : "http://www.libpng.org/pub/png/libpng.html"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/3rdparty/libpng/intel"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "java",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "name" : "Apache 2.0",
+            "url" : "http://www.apache.org/licenses/"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/modules/java/generator/src/cpp"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "cuda",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "name" : "Apache 2.0",
+            "url" : "http://www.apache.org/licenses/"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C++"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/modules/dnn/src/cuda"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "opencl",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "name" : "Apache 2.0",
+            "url" : "http://www.apache.org/licenses/"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C++"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/modules/imgproc/perf/opencl"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "cudnn",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "name" : "Apache 2.0",
+            "url" : "http://www.apache.org/licenses/"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C++"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/modules/dnn/src/cuda4dnn/csl/cudnn"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "flann",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "name" : "BSD-3-Clause",
+            "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "name" : "BSD-3-Clause",
+            "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C++"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/modules/flann/test"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "openexr",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "name" : "BSD-3-Clause",
+            "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C++"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/3rdparty/openexr/Imath"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "hal",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "name" : "BSD-3-Clause",
+            "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "name" : "BSD-3-Clause",
+            "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C++"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/3rdparty/carotene/hal"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "parallel",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "name" : "Apache 2.0",
+            "url" : "http://www.apache.org/licenses/"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C++"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/modules/core/include/opencv2/core/parallel/backend"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "protobuf",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "name" : "BSD-3-Clause",
+            "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/3rdparty/protobuf/src/google/protobuf/stubs"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "libwebp",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "name" : "BSD-3-Clause",
+            "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license" : {
+            "id" : "LicenseRef-scancode-google-patent-license-webm",
+            "name" : "Google Patent License for WebM",
+            "url" : "https://www.webmproject.org/license/additional/"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/3rdparty/libwebp/src/dsp"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "openjpeg",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-2-Clause",
+            "name" : "BSD-2-Clause",
+            "url" : "http://www.opensource.org/licenses/BSD-2-Clause"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-only",
+            "name" : "GPL 2.0",
+            "url" : "http://www.gnu.org/licenses/gpl-2.0.html"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-2-Clause",
+            "name" : "BSD-2-Clause",
+            "url" : "http://www.opensource.org/licenses/BSD-2-Clause"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/3rdparty/openjpeg/openjp2"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "libjpeg-turbo",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "IJG",
+            "name" : "JPEG License",
+            "url" : "http://fedoraproject.org/wiki/Licensing/IJG"
+          }
+        },
+        {
+          "license" : {
+            "id" : "IJG",
+            "name" : "JPEG License",
+            "url" : "http://fedoraproject.org/wiki/Licensing/IJG"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/3rdparty/libjpeg-turbo/src"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "libjpeg",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "IJG",
+            "name" : "JPEG License",
+            "url" : "http://fedoraproject.org/wiki/Licensing/IJG"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/3rdparty/libjpeg"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "python",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "name" : "BSD-3-Clause",
+            "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "name" : "BSD-3-Clause",
+            "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C++"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/modules/python/src2"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "caffe",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "name" : "BSD-3-Clause",
+            "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "name" : "BSD-3-Clause",
+            "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C++"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/modules/dnn/src/caffe"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "zlib",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Zlib",
+            "name" : "ZLIB License",
+            "url" : "http://www.zlib.net/"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/3rdparty/zlib"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "jasper",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "JasPer-2.0",
+            "name" : "JasPer 2.0",
+            "url" : "http://www.ece.uvic.ca/~frodo/jasper/LICENSE"
+          }
+        },
+        {
+          "license" : {
+            "id" : "JasPer-2.0",
+            "name" : "JasPer 2.0",
+            "url" : "http://www.ece.uvic.ca/~frodo/jasper/LICENSE"
+          }
+        },
+        {
+          "license" : {
+            "id" : "JasPer-2.0",
+            "name" : "JasPer 2.0",
+            "url" : "http://www.ece.uvic.ca/~frodo/jasper/LICENSE"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/3rdparty/libjasper/jasper"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "libtiff",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "libtiff",
+            "name" : "X11-Style (Tiff)"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/3rdparty/libtiff"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "onnx",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "name" : "Apache 2.0",
+            "url" : "http://www.apache.org/licenses/"
+          }
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "ecosystem",
+          "value" : "C++"
+        },
+        {
+          "name" : "virtual",
+          "value" : "true"
+        },
+        {
+          "name" : "path",
+          "value" : "source/modules/dnn/src/onnx"
+        }
+      ],
+      "type" : "library"
+    }
+  ]
+}
